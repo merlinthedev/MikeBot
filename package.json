@@ -5,5 +5,22 @@
   },
   "devDependencies": {
     "eslint": "^8.10.0"
-  }
+  },
+  "name": "mikebot",
+  "description": "",
+  "version": "1.0.0",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merlinthedev/MikeBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merlinthedev/MikeBot/issues"
+  },
+  "homepage": "https://github.com/merlinthedev/MikeBot#readme"
 }
