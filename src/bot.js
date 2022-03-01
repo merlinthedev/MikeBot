@@ -27,13 +27,20 @@ client.once('ready', () => {
 			if(member.id == mikeId)
 			{
 				member.setNickname('Mike');
-
 			}
 		});
 	});
 		
 });
 
+client.on('message', (message) => {
+	if(message.content === 'hello')
+	{
+		message.reply('hi')
+
+	}
+
+})
 
 
 // Login to Discord with your client's token
