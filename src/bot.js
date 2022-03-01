@@ -37,9 +37,7 @@ client.on('message', (message) => {
 	if(message.content === 'hello')
 	{
 		message.reply('hi')
-
 	}
-
 })
 
 
